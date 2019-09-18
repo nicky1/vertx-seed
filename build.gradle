@@ -18,6 +18,11 @@ dependencies {
     compile "com.google.guava:guava:28.1-jre"
     compile "io.vertx:vertx-core:3.8.1"
     compile "io.vertx:vertx-web:3.8.1"
+    compile "io.vertx:vertx-web-client:3.8.1"
+    compile "io.vertx:vertx-hazelcast:3.8.1"
+
+    compile "io.vertx:vertx-mongo-client:3.8.1"
+
     compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.12.1'
     compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.12.1'
     compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.12.1'
